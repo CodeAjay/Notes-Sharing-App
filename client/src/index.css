@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Navigation Bar css  */
+/* Navigation Bar css  */
+/* Navigation Bar css  */
+
+/* NavigationBar.css */
+
+/* NavigationBar.css */
+
+/* NavigationBar.css */
+
+/* NavigationBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: middle;
+  background-color: #ffffff; /* Set your preferred background color */
+  padding: 10px 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional box shadow for a nice effect */
+}
+
+.logo img {
+  width: 40px; /* Set the size of your logo image */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.5rem; /* Set the font size for the app name */
+  font-weight: bold;
+  color:#FDD049ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin:0px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333333; /* Set your preferred text color */
+  font-size: 1rem; /* Set the font size for navigation links */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FDD049ff; /* Set the color for links when hovering */
+}
+
+.menu-icon{
+  display: none;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  font-size: .8rem;
+  background-color: #FDD049ff; /* Set your preferred button background color */
+  color: black; /* Set your preferred button text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: rgb(237, 192, 59); /* Set your preferred button background color on hover */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links a {
+    color: #333333;
+  }
+
+  .nav-links a:hover {
+    color: #FDD049ff;
+  }
+
+  /* Show hamburger menu icon */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  /* Style for open hamburger menu */
+  .menu-icon.open {
+    /* You can add any styling you want for the open state of the hamburger icon */
+  }
+}
+
+
+/* Navigation Bar css  */
+/* Navigation Bar css  */
+/* Navigation Bar css  */
+
+
+/* Hero Section CSS */
+/* Hero Section CSS */
+/* Hero Section CSS */
+
+
+/* HeroSection.css */
+
+.hero-section {
+  background-image: url('../assests/background.jpg'); /* Set the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Adjust the height to your preference */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #ffffff; /* Set the text color for the heading */
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #ffffff; /* Set the text color for the paragraph */
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #FDD049ff; /* Set your preferred button background color */
+  color: black; /* Set your preferred button text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: rgb(237, 192, 59); /* Set your preferred button background color on hover */
+}
+
+
+/* Hero Section CSS */
+
+.cta-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #FDD049ff; /* Set your preferred button background color */
+  color: black; /* Set your preferred button text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-section button:hover {
+  background-color: rgb(237, 192, 59); /* Set your preferred button background color on hover */
+}
+/* Hero Section CSS */
+/* Hero Section CSS */
+
+
+
+
+
+
+
+.row{
+  justify-content: center;
+}
+
+
+
+/* About Page CSS */
+/* About Page CSS */
+/* About Page CSS */
+
+
+.about{
+  background-image: url('../assests/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.about h1{
+  color:white;
+}
+
+/* About Page CSS */
+/* About Page CSS */
+/* About Page CSS */
