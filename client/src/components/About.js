@@ -8,7 +8,7 @@ const About = () => {
         <h1>About </h1>
       </div>
       <div className="container">
-        <h2>Just Tesging the Git </h2>
+        <h2>Just Tesging the Git. How git works and etc...</h2>
       </div>
     </div>
   );
