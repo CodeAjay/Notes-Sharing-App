@@ -42,7 +42,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-var url = "mongodb+srv://ajay01937:qwerty1234@cluster0.80uwiaj.mongodb.net/test";
+var url = "mongodb+srv://user:pass@cluster0.80uwiaj.mongodb.net/test";
 
 const connectionParams={
   
